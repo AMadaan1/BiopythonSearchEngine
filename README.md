@@ -12,9 +12,11 @@ What it does:
   2. Asks for the path of the input FASTA file(.fa)
   
   3. Converts all the text in the file into a string(fasta_string)
+
+  4. Asks which records to search(1 would be the first record)
   
-  4. Uses the qblast function from NCBIWWW to get the results of the BLAST search against the nucleotide("nt") database
+  5. Uses the qblast function from NCBIWWW to get the results of the BLAST search against the nucleotide("nt") database
   
-  5. Reads these results into the variable blast_record
+  6. Reads these results into the variable blast_record
   
-  6. Prints the alignments
+  7. Prints the alignments
