@@ -7,14 +7,14 @@ pip install biopython
 
 What it does:
   
-  Imports the NCBIWWW and NCBIXML modules from Biopython
+  1. Imports the NCBIWWW and NCBIXML modules from Biopython
   
-  Asks for the path of the input FASTA file(.fa)
+  2. Asks for the path of the input FASTA file(.fa)
   
-  Converts all the text in the file into a string(fasta_string)
+  3. Converts all the text in the file into a string(fasta_string)
   
-  Uses the qblast function from NCBIWWW to get the results of the BLAST search against the nucleotide("nt") database
+  4. Uses the qblast function from NCBIWWW to get the results of the BLAST search against the nucleotide("nt") database
   
-  Reads these results into the variable blast_record
+  5. Reads these results into the variable blast_record
   
-  Prints the alignments
+  6. Prints the alignments
